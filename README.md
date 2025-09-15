@@ -413,6 +413,7 @@ cat>file22
 uniq file22
 ## OUTPUT
 
+<img width="454" height="162" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/6e4bc925-6f91-43c2-9f97-e3e41b83a91b" />
 
 
 #Using tr command
@@ -700,7 +701,7 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
-##OUTPUT
+## OUTPUT
 
 <img width="726" height="241" alt="Screenshot (533)" src="https://github.com/user-attachments/assets/ebbebacc-ebee-4f5b-b5b7-faa0daa06ea5" />
 
@@ -749,6 +750,7 @@ fi
 ```
 ##OUTPUT
 
+<img width="633" height="398" alt="Screenshot (536)" src="https://github.com/user-attachments/assets/35e24055-9c22-4e77-9877-f18303c9a970" />
 
 
 $ chmod 755 iftest.sh
