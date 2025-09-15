@@ -615,11 +615,15 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
+##OUTPUT
+
 
 ./ifnested.sh 
+
 ## OUTPUT
 
 
+<img width="534" height="57" alt="Screenshot (535)" src="https://github.com/user-attachments/assets/5d2c4dc0-2f6b-479b-8095-5207f13c6534" />
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -657,15 +661,23 @@ else
 echo “The values are different”
 fi
 ```
+##OUTPUT
+
+
 
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
 
+<img width="760" height="157" alt="Screenshot (537)" src="https://github.com/user-attachments/assets/1ba6a323-e083-4a9d-b257-6bb01b50b0d8" />
+
+
 # check if a file
+
 cat > ifnested.sh 
-```bash
+
+```
 \#!/bin/bash
 if [ -e $HOME ]
 then
@@ -743,6 +755,7 @@ $ ./elifcheck.sh
 
 <img width="781" height="108" alt="Screenshot (539)" src="https://github.com/user-attachments/assets/b9c5bff3-e1c5-413e-9314-42849f438af2" />
 
+<img width="534" height="57" alt="Screenshot (535)" src="https://github.com/user-attachments/assets/bc64c4be-fc98-4290-8029-56c145823f71" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
