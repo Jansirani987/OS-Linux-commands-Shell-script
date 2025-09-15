@@ -240,13 +240,10 @@ egrep '((W|w)orld$)' newfile
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5e113182-359f-4891-a29f-15ad73a9927b" />
-
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8b586378-526a-4976-b5e7-add63afd923a" />
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
@@ -715,6 +712,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ##OUTPUT
 
+
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -743,6 +741,8 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="781" height="108" alt="Screenshot (539)" src="https://github.com/user-attachments/assets/b9c5bff3-e1c5-413e-9314-42849f438af2" />
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -758,6 +758,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+<img width="774" height="112" alt="Screenshot (540)" src="https://github.com/user-attachments/assets/7403b6e3-ca07-4c60-8998-64aada3363cc" />
 
 # using the case command
 cat >casecheck.sh 
@@ -777,7 +779,14 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+
+
+ ##OUTPUT
+
+
+<img width="776" height="107" alt="Screenshot (541)" src="https://github.com/user-attachments/assets/1d200eaa-d0a0-46cb-9264-2a8d5007338a" />
+
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -792,10 +801,15 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+
+ ##OUTPUT
+
+ <img width="705" height="307" alt="Screenshot (542)" src="https://github.com/user-attachments/assets/6436ee69-0d19-4ee6-8968-3cbd4b46dfc9" />
+
  
 cat untiltest.sh 
-```bash
+
+```
 \#using the until command
 var1=100
 until [ $var1 -eq 0 ]
@@ -806,10 +820,14 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
+ cat forin1.sh 
+
+ ##OUTPUT
+
+ <img width="650" height="184" alt="Screenshot (543)" src="https://github.com/user-attachments/assets/2225d9b9-1058-4067-83e6-1dc03b59f83b" />
  
- 
-cat forin1.sh 
-```bash
+
+```
 \#!/bin/bash
 \#basic for command
 for test in Alabama Alaska Arizona Arkansas California Colorado
@@ -822,7 +840,13 @@ $ chmod 755 forin1.sh
  
  
 cat forin2.sh 
-```bash
+
+##OUTPUT
+
+
+<img width="746" height="265" alt="Screenshot (544)" src="https://github.com/user-attachments/assets/437412b6-b97f-4edd-92fe-fc1f2ff63ce6" />
+
+```
 \#!/bin/bash
 \# another example of how not to use the for command
 for test in I don't know if this'll work
@@ -834,7 +858,13 @@ done
 $ chmod 755 forin2.sh
  
 cat forin2.sh 
-```bash
+
+##OUTPUT
+
+<img width="746" height="183" alt="Screenshot (545)" src="https://github.com/user-attachments/assets/79c135f8-1196-4f5d-892f-3fdf141acc7d" />
+
+
+```
 \#!/bin/bash
 \# another example of how not to use the for command
 for test in I don't know if this'll work
@@ -845,9 +875,12 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ##OUTPUT
+
+ <img width="711" height="193" alt="Screenshot (546)" src="https://github.com/user-attachments/assets/77725079-794c-4ced-a6d9-dfb6890e1a0a" />
+
 cat forin3.sh 
-```bash
+```
 \#!/bin/bash
 \# another example of how not to use the for command
 for test in I don\'t know if "this'll" work
@@ -858,7 +891,12 @@ done
 $ ./forin3.sh 
  
 cat forin1.sh 
-```bash
+
+##OUTPUT
+
+<img width="741" height="260" alt="Screenshot (547)" src="https://github.com/user-attachments/assets/8a6893ba-cc94-4635-be1b-7e0055e341be" />
+
+```
 #!/bin/bash
 # basic for command
 for test in Alabama Alaska Arizona Arkansas California Colorado
@@ -869,6 +907,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+<img width="791" height="110" alt="Screenshot (548)" src="https://github.com/user-attachments/assets/481b5b73-ee36-44a6-80dc-5801d5c820f5" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -891,6 +932,8 @@ Khammam
 
 ## OUTPUT
 
+<img width="631" height="78" alt="Screenshot (549)" src="https://github.com/user-attachments/assets/969ef9c0-c31e-4793-81ac-feb1f3b9ff1e" />
+
 
 cat forctype.sh 
 ```bash
@@ -903,7 +946,11 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
 ## OUTPUT
+
+<img width="537" height="177" alt="Screenshot (550)" src="https://github.com/user-attachments/assets/4644cc0b-495e-4066-bcec-719dcdf96f87" />
+
 
 cat forctype1.sh 
 ```bash
@@ -916,7 +963,10 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
+
 ## OUTPUT
+
+<img width="643" height="91" alt="Screenshot (552)" src="https://github.com/user-attachments/assets/bb9d68a3-8ec2-483d-aec7-cc3194730c1a" />
 
 cat fornested1.sh 
 ```bash
@@ -951,11 +1001,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+ ## OUTPUT
+
  
 cat forbreak.sh 
 ```bash
@@ -977,8 +1030,12 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+
+<img width="573" height="179" alt="Screenshot (555)" src="https://github.com/user-attachments/assets/412ba562-cf3f-45e6-a94d-32fe44dda315" />
+
  
-cat exread.sh 
+cat >exread.sh 
 ```bash
 #!/bin/bash
 # testing the read command
@@ -993,6 +1050,8 @@ $ ./exread.sh
 ## OUTPUT
 
 
+<img width="596" height="87" alt="Screenshot (556)" src="https://github.com/user-attachments/assets/c28e1587-a1da-4b5e-b38c-03d10f3b08ea" />
+
  cat exread1.sh
 ```bash
 #!/bin/bash
@@ -1001,12 +1060,12 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+$ ./exread1.sh 
 
 ## OUTPUT
 
+ <img width="596" height="87" alt="Screenshot (556)" src="https://github.com/user-attachments/assets/d5c1fc03-2cac-4ed9-b9d4-185a4bbd38ad" />
 
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1029,6 +1088,9 @@ fi
  
  ./funcex.sh 1 2
 
+
+<img width="513" height="66" alt="Screenshot (557)" src="https://github.com/user-attachments/assets/09dc578a-99fd-4051-8d6b-244947fd727a" />
+
  
 cat argshift.sh
 ```bash
@@ -1039,10 +1101,13 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
- 
+
+
+ <img width="546" height="114" alt="Screenshot (558)" src="https://github.com/user-attachments/assets/5e043d1a-0c34-4c28-92aa-b4674792f504" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1057,8 +1122,12 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+<img width="452" height="107" alt="Screenshot (559)" src="https://github.com/user-attachments/assets/6bffb76d-c0eb-4a2e-bdc2-11ff227d14c9" />
+
  
 cat argshift.sh
 ```bash
@@ -1071,9 +1140,9 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
  
- 
+ <img width="494" height="371" alt="Screenshot (560)" src="https://github.com/user-attachments/assets/999c62fa-665b-4876-96f9-1ecdad98f89a" />
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1103,6 +1172,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+
  
 cat > palindrome.sh
 ```bash
@@ -1131,6 +1202,7 @@ fi
 ```
 ## OUTPUT 
 
+<img width="517" height="89" alt="Screenshot (561)" src="https://github.com/user-attachments/assets/7370aefa-6bde-401d-b7cf-e7d01bd33812" />
 
 # RESULT:
 The Commands are executed successfully.
