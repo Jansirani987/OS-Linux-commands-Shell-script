@@ -704,7 +704,7 @@ fi
 ```
 ## OUTPUT
 
-<img width="726" height="241" alt="Screenshot (533)" src="https://github.com/user-attachments/assets/ebbebacc-ebee-4f5b-b5b7-faa0daa06ea5" />
+![WhatsApp Image 2025-09-15 at 15 43 16_3ab6c072](https://github.com/user-attachments/assets/4e726264-6002-4898-9810-a76f569cc8a6)
 
 ./ifnested.sh 
 
@@ -816,6 +816,9 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+
+![WhatsApp Image 2025-09-15 at 18 02 18_d6af7272](https://github.com/user-attachments/assets/311553d4-2c09-4a49-a744-33a73b1fe316)
+
 
 
 # looking for a possible value using elif
