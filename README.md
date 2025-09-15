@@ -177,8 +177,6 @@ egrep -w 'Hello|hello' newfile
 ## OUTPUT
 
 <img width="569" height="70" alt="Screenshot (581)" src="https://github.com/user-attachments/assets/4c29ea83-8396-4b9d-90f0-c3277a37e624" />
-
-
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
@@ -229,7 +227,6 @@ egrep l{2} newfile
 ## OUTPUT
 
 ![WhatsApp Image 2025-09-15 at 15 33 01_1c042193](https://github.com/user-attachments/assets/3ebdaddb-3897-4e89-9bbd-ca74a493c884)
-
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
@@ -272,12 +269,10 @@ sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
 <img width="577" height="203" alt="Screenshot (477)" src="https://github.com/user-attachments/assets/64469e4e-e919-4c6f-b3aa-626bedb91679" />
-
 sed -n -e '1,5p' file23
 ## OUTPUT
 
 <img width="566" height="167" alt="Screenshot (500)" src="https://github.com/user-attachments/assets/36ced942-9055-474d-9f35-171fdf934f0d" />
-
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
@@ -288,12 +283,10 @@ sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
 <img width="731" height="77" alt="Screenshot (502)" src="https://github.com/user-attachments/assets/a7cc1323-931e-409c-904f-667e97b1245e" />
-
 seq 10 
 ## OUTPUT
 
 <img width="520" height="293" alt="Screenshot (503)" src="https://github.com/user-attachments/assets/e4c98dd5-a158-46ad-8711-c67d7ee86036" />
-
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
@@ -301,7 +294,6 @@ seq 10 | sed -n '4,6p'
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
 <img width="619" height="111" alt="Screenshot (505)" src="https://github.com/user-attachments/assets/0e736973-9fd7-43c5-ad29-331075063dc3" />
 
 seq 3 | sed '2a hello'
@@ -309,21 +301,17 @@ seq 3 | sed '2a hello'
 
 <img width="651" height="127" alt="Screenshot (506)" src="https://github.com/user-attachments/assets/251ed0d8-26a8-4d14-b2af-60ebdc1e0f6f" />
 
-
 seq 2 | sed '2i hello'
 ## OUTPUT
 
 <img width="498" height="109" alt="Screenshot (507)" src="https://github.com/user-attachments/assets/2aa4def7-5a00-4621-a767-ee327acc4200" />
-
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
 <img width="553" height="104" alt="Screenshot (508)" src="https://github.com/user-attachments/assets/a70dd7e8-d6d5-4d86-adad-03884a16fd85" />
 
-
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
 
 <img width="690" height="102" alt="Screenshot (509)" src="https://github.com/user-attachments/assets/fbea4970-0282-421e-b7dd-8d1f6edf95fd" />
 
@@ -331,7 +319,6 @@ sed -n '2,4{s/$/*/;p}' file23
 ## OUTPUT
 
 <img width="643" height="105" alt="Screenshot (510)" src="https://github.com/user-attachments/assets/0f9a6734-965b-48c1-bb3b-5102b186d346" />
-
 
 #Sorting File content cat > file21
 ```
@@ -346,7 +333,6 @@ sed -n '2,4{s/$/*/;p}' file23
 
 sort file21
 ## OUTPUT
-
 ![WhatsApp Image 2025-09-15 at 16 01 17_ba05fd94](https://github.com/user-attachments/assets/41f2e405-f005-433c-8d90-b8f76f33c37f)
 
 cat>file22
@@ -362,18 +348,14 @@ cat>file22
 cat>file22
 
 <img width="436" height="182" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/06183b20-e072-48c5-a8a3-23e2576e1895" />
-
 uniq file22
 ## OUTPUT
-
 <img width="454" height="162" alt="Screenshot (513)" src="https://github.com/user-attachments/assets/6e4bc925-6f91-43c2-9f97-e3e41b83a91b" />
-
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
 
 <img width="685" height="233" alt="Screenshot (514)" src="https://github.com/user-attachments/assets/e9f23af7-874b-412a-928a-6bd8e6638e7f" />
 
@@ -390,27 +372,22 @@ www. yahoo. com
 www. google. com
 www. mrcet.... com
  ```
-
 <img width="639" height="132" alt="Screenshot (515)" src="https://github.com/user-attachments/assets/105e4b07-2a92-48b7-a434-3373a27a9914" />
-
 
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
 <img width="565" height="132" alt="Screenshot (516)" src="https://github.com/user-attachments/assets/e0475524-3a54-4608-9fad-89e1998d4aab" />
 
- 
-cat urllist.txt | tr -d ' ' | tr -s '.'
+ cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
 <img width="710" height="138" alt="Screenshot (517)" src="https://github.com/user-attachments/assets/807ab5b3-b9e3-43da-977f-e0c3a706829f" />
-
 
 #Backup commands tar -cvf backup.tar *
 ## OUTPUT
 
 <img width="741" height="430" alt="Screenshot (518)" src="https://github.com/user-attachments/assets/07cfdfd2-c882-4baa-ab31-0822aa10ff40" />
-
 
 mkdir backupdir
  
@@ -514,18 +491,15 @@ ls file1
 
 <img width="425" height="53" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/0b875e0e-2b45-4506-855c-424a85f57e2b" />
 
-
 echo $?
 ## OUTPUT 
 
 <img width="392" height="56" alt="Screenshot (528)" src="https://github.com/user-attachments/assets/e4ada54b-083d-486e-98b9-f8a81e71ae95" />
 
-
 ./one bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
-
  <img width="699" height="101" alt="Screenshot (529)" src="https://github.com/user-attachments/assets/c1fe2c8c-e9d3-49fe-a5e6-287ff5b59542" />
 
 abcd
@@ -535,8 +509,7 @@ echo $?
 
 <img width="398" height="50" alt="Screenshot (530)" src="https://github.com/user-attachments/assets/c7a1fc55-942d-4654-be25-3c71100c47b6" />
 
- 
-# mis-using string comparisons
+ # mis-using string comparisons
 
 cat < strcomp.sh 
 ```bash
@@ -573,8 +546,6 @@ chmod 755 strcomp.sh
 ## OUTPUT
 
 <img width="815" height="114" alt="Screenshot (532)" src="https://github.com/user-attachments/assets/7893ffe5-843c-4fc5-8681-4e91922fa843" />
-
-
 # check file ownership
 cat < psswdperm.sh 
 ```bash
@@ -692,15 +663,12 @@ fi
 ##OUTPUT
 
 <img width="633" height="398" alt="Screenshot (536)" src="https://github.com/user-attachments/assets/35e24055-9c22-4e77-9877-f18303c9a970" />
-
-
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
 
 <img width="760" height="157" alt="Screenshot (537)" src="https://github.com/user-attachments/assets/1ba6a323-e083-4a9d-b257-6bb01b50b0d8" />
-
 
 # check if a file
 
@@ -748,9 +716,7 @@ echo “Sorry, the object does not exist”
 fi
 ```
 ##OUTPUT
-
 ![WhatsApp Image 2025-09-15 at 15 43 16_d04980f4](https://github.com/user-attachments/assets/c72290e1-6524-4696-86c0-14d9ebbf1ec7)
-
 
 $ chmod 755 ifnested.sh
  
@@ -758,8 +724,6 @@ $ ./ifnested.sh
 ##OUTPUT
 
 ![WhatsApp Image 2025-09-15 at 18 02 18_d6af7272](https://github.com/user-attachments/assets/311553d4-2c09-4a49-a744-33a73b1fe316)
-
-
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -790,7 +754,6 @@ $ ./elifcheck.sh
 ## OUTPUT
 
 <img width="781" height="108" alt="Screenshot (539)" src="https://github.com/user-attachments/assets/b9c5bff3-e1c5-413e-9314-42849f438af2" />
-
 
 cat> ifcompound.sh 
 ```bash
@@ -832,7 +795,6 @@ $ ./casecheck.sh
 
 <img width="776" height="107" alt="Screenshot (541)" src="https://github.com/user-attachments/assets/1d200eaa-d0a0-46cb-9264-2a8d5007338a" />
 
-
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -852,8 +814,7 @@ $ ./whiletest.sh
 
  <img width="705" height="307" alt="Screenshot (542)" src="https://github.com/user-attachments/assets/6436ee69-0d19-4ee6-8968-3cbd4b46dfc9" />
 
- 
-cat untiltest.sh 
+ cat untiltest.sh 
 
 ```
 \#using the until command
@@ -907,8 +868,6 @@ cat forin2.sh
 ##OUTPUT
 
 <img width="746" height="183" alt="Screenshot (545)" src="https://github.com/user-attachments/assets/79c135f8-1196-4f5d-892f-3fdf141acc7d" />
-
-
 ```
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -921,7 +880,6 @@ $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
  ##OUTPUT
-
  <img width="711" height="193" alt="Screenshot (546)" src="https://github.com/user-attachments/assets/77725079-794c-4ced-a6d9-dfb6890e1a0a" />
 
 cat forin3.sh 
@@ -954,7 +912,6 @@ $ chmod 755 forin1.sh
 ## OUTPUT
 
 <img width="791" height="110" alt="Screenshot (548)" src="https://github.com/user-attachments/assets/481b5b73-ee36-44a6-80dc-5801d5c820f5" />
-
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -979,7 +936,6 @@ Khammam
 
 <img width="631" height="78" alt="Screenshot (549)" src="https://github.com/user-attachments/assets/969ef9c0-c31e-4793-81ac-feb1f3b9ff1e" />
 
-
 cat forctype.sh 
 ```bash
 #!/bin/bash
@@ -995,7 +951,6 @@ $ ./forctype.sh
 ## OUTPUT
 
 <img width="537" height="177" alt="Screenshot (550)" src="https://github.com/user-attachments/assets/4644cc0b-495e-4066-bcec-719dcdf96f87" />
-
 
 cat forctype1.sh 
 ```bash
@@ -1033,8 +988,7 @@ $ ./fornested1.sh
 
  ![WhatsApp Image 2025-09-15 at 16 32 10_4292794b](https://github.com/user-attachments/assets/79850571-a0bd-4063-a0fa-5cf68985737d)
 
- 
-cat forbreak.sh 
+ cat forbreak.sh 
 ```
 #!/bin/bash
 # breaking out of a for loop
@@ -1058,7 +1012,6 @@ $ ./forbreak.sh
 
  ![WhatsApp Image 2025-09-15 at 16 40 32_0e3101ab](https://github.com/user-attachments/assets/1960bc6c-004c-4442-bfbf-f57c20502982)
  
-
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -1074,16 +1027,14 @@ done
 echo "The for loop is completed“
 ```
 
- 
-$ chmod 755 forcontinue.sh
+ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
 
 <img width="573" height="179" alt="Screenshot (555)" src="https://github.com/user-attachments/assets/412ba562-cf3f-45e6-a94d-32fe44dda315" />
 
- 
-cat >exread.sh 
+ cat >exread.sh 
 ```bash
 #!/bin/bash
 # testing the read command
@@ -1096,7 +1047,6 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
 <img width="596" height="87" alt="Screenshot (556)" src="https://github.com/user-attachments/assets/c28e1587-a1da-4b5e-b38c-03d10f3b08ea" />
 
  cat exread1.sh
@@ -1113,7 +1063,6 @@ $ ./exread1.sh
 
  <img width="596" height="87" alt="Screenshot (556)" src="https://github.com/user-attachments/assets/d5c1fc03-2cac-4ed9-b9d4-185a4bbd38ad" />
 
- 
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1131,14 +1080,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
- 
  ./funcex.sh 1 2
 
 <img width="513" height="66" alt="Screenshot (557)" src="https://github.com/user-attachments/assets/09dc578a-99fd-4051-8d6b-244947fd727a" />
 
- 
-cat argshift.sh
+ cat argshift.sh
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
@@ -1150,8 +1096,6 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 
 ## OUTPUT
-
-
  <img width="546" height="114" alt="Screenshot (558)" src="https://github.com/user-attachments/assets/5e043d1a-0c34-4c28-92aa-b4674792f504" />
 
  cat argshift1.sh
@@ -1171,11 +1115,9 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 
 ## OUTPUT
-
 <img width="452" height="107" alt="Screenshot (559)" src="https://github.com/user-attachments/assets/6bffb76d-c0eb-4a2e-bdc2-11ff227d14c9" />
 
- 
-cat argshift.sh
+ cat argshift.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1186,8 +1128,8 @@ done
 set +x
 ```
 ## OUTPUT
- 
- <img width="494" height="371" alt="Screenshot (560)" src="https://github.com/user-attachments/assets/999c62fa-665b-4876-96f9-1ecdad98f89a" />
+
+  <img width="494" height="371" alt="Screenshot (560)" src="https://github.com/user-attachments/assets/999c62fa-665b-4876-96f9-1ecdad98f89a" />
 
 cat > nc.awk
 ```bash
@@ -1221,8 +1163,7 @@ awk -f nc.awk data.dat
 
 ![WhatsApp Image 2025-09-15 at 16 40 54_26eaa35b](https://github.com/user-attachments/assets/9bd8b191-e26e-4bdf-b03e-2ff7e284d341)
 
- 
-cat > palindrome.sh
+ cat > palindrome.sh
 ```bash
 #num=545
 echo "Enter the number"
@@ -1248,7 +1189,6 @@ else
 fi
 ```
 ## OUTPUT 
-
 <img width="517" height="89" alt="Screenshot (561)" src="https://github.com/user-attachments/assets/7370aefa-6bde-401d-b7cf-e7d01bd33812" />
 
 # RESULT:
