@@ -43,7 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-<img width="447" height="173" alt="Screenshot (562)" src="https://github.com/user-attachments/assets/29c3f206-0de2-450b-ae21-4fadf393b57c" />
+![WhatsApp Image 2025-09-15 at 17 47 48_bdfbbda7](https://github.com/user-attachments/assets/99a7e7ab-8fec-4c95-920f-40e857164e2d)
 
 
 cat < file2
@@ -251,7 +251,8 @@ egrep 'Linux.*world' newfile
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-![WhatsApp Image 2025-09-15 at 15 29 16_7a04a1e4](https://github.com/user-attachments/assets/9b11141a-2777-49a7-ac60-2a73d7a05fd7)
+![WhatsApp Image 2025-09-15 at 17 41 30_5a312e75](https://github.com/user-attachments/assets/ee36d36e-ded4-4f80-a8c5-6745b78ae9e2)
+
 
 
 egrep l{2} newfile
