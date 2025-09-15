@@ -240,11 +240,13 @@ egrep '((W|w)orld$)' newfile
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5e113182-359f-4891-a29f-15ad73a9927b" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8b586378-526a-4976-b5e7-add63afd923a" />
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
