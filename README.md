@@ -1075,7 +1075,7 @@ $ ./forctype1.sh
 
 <img width="643" height="91" alt="Screenshot (552)" src="https://github.com/user-attachments/assets/bb9d68a3-8ec2-483d-aec7-cc3194730c1a" />
 
-cat fornested1.sh 
+cat >fornested1.sh 
 ```bash
 #!/bin/bash
 # nesting for loops
@@ -1094,12 +1094,12 @@ $ ./fornested1.sh
  ## OUTPUT
 
 
- ![WhatsApp Image 2025-09-15 at 15 40 08_56d6ff7a](https://github.com/user-attachments/assets/817837e4-55ac-4642-ac74-0f1b23b5a2eb)
+ ![WhatsApp Image 2025-09-15 at 16 32 10_4292794b](https://github.com/user-attachments/assets/79850571-a0bd-4063-a0fa-5cf68985737d)
 
  
 
 cat forbreak.sh 
-```bash
+```
 #!/bin/bash
 # breaking out of a for loop
 for var1 in 1 2 3 4 5
