@@ -847,9 +847,7 @@ $ ./elifcheck.sh
 
 <img width="781" height="108" alt="Screenshot (539)" src="https://github.com/user-attachments/assets/b9c5bff3-e1c5-413e-9314-42849f438af2" />
 
-<img width="534" height="57" alt="Screenshot (535)" src="https://github.com/user-attachments/assets/bc64c4be-fc98-4290-8029-56c145823f71" />
 
-# testing compound comparisons
 cat> ifcompound.sh 
 ```bash
 \#!/bin/bash
